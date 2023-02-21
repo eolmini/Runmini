@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Runmini</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <a href="index.html">
+          <h1>Runmini</h1>
+        </a>
+      </div>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#">달리기 정보 <span>▼</span></a>
+            <ul>
+              <li><a href="#">유튜브</a></li>
+              <li><a href="#">관련도서</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">러닝일지</a></li>
+
+          <li><a href="#">갤러리</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="slideShow">
+      <div id="slides">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <!--
+        <button id="prev">&lang;</button>
+        <button id="next">&rang;</button>
+        -->
+      </div>
+    </div>
+    <div id="contents">
+      <div id="tabMenu">
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">공지사항</label>
+        <input type="radio" id="tab2" name="tabs" checked>
+        <label for="tab2">갤러리</label>
+
+        <div id="notice" class="tabContent">
+          <h2>공지사항 내용입니다.</h2>
+          <ul>
+            <li>Runmini 사이트가 오픈되었습니다.</li>
+            <li>겨울, 달리기 복장가이드</li>
+          </ul>
+        </div>
+
+        <div id="gallery" class="tabContent">
+          <h2>갤러리 내용입니다.</h2>
+          <ul>
+            <li><img src="images/img-1.jpg"></li>
+            <li><img src="images/img-2.jpg"></li>
+            <li><img src="images/img-3.jpg"></li>
+            <li><img src="images/img-1.jpg"></li>
+            <li><img src="images/img-2.jpg"></li>
+            <li><img src="images/img-3.jpg"></li>
+          </ul>
+        </div>
+
+
+      </div>
+      
+      <div id="links">
+        <ul>
+          <li>
+            <a href="http://www.marathon.pe.kr/" target='_blank'>
+              <span id ="quick-icon1"></span>
+              <p>마라톤 온라인</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.runnersclub.com/" target='_blank'>
+              <span id ="quick-icon2"></span>
+              <p>런너스 클럽</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.nike.com/kr" target='_blank'>
+              <span id ="quick-icon3"></span>
+              <p>나이키 공홈</p>
+            </a>
+          </li>
+        </ul>
+
+
+
+      </div>
+    </div>
+    <footer>
+      
+      <div id="bottomMenu">
+        <ul>
+          <li><a href="#">회사 소개</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">여행약관</a></li>
+          <li><a href="#">사이트맵</a></li>
+        </ul>
+
+        <div id="sns">
+          <ul>
+            <li><a href="#"><img src="./images/sns-1.png"></a></li>
+            <li><a href="#"><img src="./images/sns-2.png"></a></li>
+            <li><a href="#"><img src="./images/sns-3.png"></a></li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div id="company">
+        <p>대구광역시 동구 신암동 (대표전화) 010-9436-4463</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./js/slideshowAuto.js"></script>
+</body>
+
+</html>
